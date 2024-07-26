@@ -10,7 +10,7 @@ Define macro layers in code which are automatically bound to your macro pad butt
 * Install AutoHotkey v2
 * Edit Main.ahk, this is where the Keybindings for your macro pad buttons are.
 *Example:*
-
+```
     ; +----------+----------+
     ; | F17 = 1  | F18 = Fn |
     ; +----------+----------+
@@ -41,10 +41,10 @@ Define macro layers in code which are automatically bound to your macro pad butt
        ActivateOrSelectMacro(button)
     }
     ...
-
+```
 * Edit Macros.ahk.
 *Example:*
-
+```
     ; Create a new MacroLayer object with the argument, buttons:int - the amount of non-function buttons available.
     ; Call the AddNewLayer function on the MacroLayers object with the arguments, 
     ;   title:string - the name of the layer
@@ -64,7 +64,7 @@ Define macro layers in code which are automatically bound to your macro pad butt
        Send("{F9}")
     }
     ...
-
+```
 ## Showcase
 
 ### Macro Layers UI
